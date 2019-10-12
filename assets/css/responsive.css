@@ -1,0 +1,88 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1280px) {}
+
+/* Large Layout: 1200px. */
+
+@media only screen and (min-width: 1200px) {}
+
+
+/* Medium screen  */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hm-mid .address-info li {
+        margin-right: 20px;
+    }
+}
+@media only screen and (min-width: 992px){
+   .main-menu .navbar-header .navbar-toggler{
+        display: none !important;
+    }
+}
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media(max-width: 991px) {
+
+    .ht-left {
+        text-align: center;
+        float: none !important;
+    }
+    .ht-right {
+        max-width: 100%;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .hm-mid .address-info li {
+
+        margin-right: 40px;
+    }
+    .main-menu .navbar-header .navbar-toggle {
+	background: #1d1d1d;
+	border: 1px dashed #1d1d1d;
+	display: inline-block;
+	border-radius: 3px;
+	float: none;
+	margin: 0;
+	z-index: 7;
+	width: 50px;
+	height: 47px;
+	cursor: pointer;
+	padding: 0 9px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+    /* ---- features-area -----  */
+    
+    .features-area .feature-box {
+	margin-bottom: 30px;
+}
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
+
+@media(max-width: 767px) {}
+
+
+@media(max-width: 479px) {
+    .ht-right .ht-menu {
+        max-width: 100%;
+        float: none !important;
+        width: 255px;
+        margin: 0 auto;
+    }
+}

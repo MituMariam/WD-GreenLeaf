@@ -1,0 +1,41 @@
+.btn1:hover,.subscribe-area .subscribe-form button:hover {
+	color: #ffffff;
+/*	background: #5a9703;*/
+}
+.thm-clr,.main-menu .navbar > li:hover > a,.main-menu .navbar > li.active > a,.main-menu .navbar > li > ul > li:hover > a,
+.inner-search-box .search-toggle, .filters ul li.active, .filters ul li:hover,.single-project .img-holder .inner-content p,.about-right-content ul li:hover .text h3, .testimonial-active .owl-nav, .team-profile .img-holder ul li,.team-profile .img-holder ul li .fab,body a:hover {
+    color:  #ef4428;
+}
+.main-menu .navbar > li > ul > li:hover{
+     border-bottom: 1px solid #ef4428;
+    
+}
+.main-menu .navbar > li > ul {
+     border-bottom: 2px solid #ef4428;
+}
+.about-right-content ul li:hover .year,.slogan-area .mid-content, .testimonial-active .owl-nav button.owl-prev, .single-sidebar .tags a, .subscribe-area .subscribe-form input:focus, .pagination li,.sidebar-title h3 {
+     border: 1px dashed #ef4428;
+    
+}
+.testimonial-item{
+   outline: 1px dashed #ef4428;
+    
+}
+.thm-bg-clr, .search-box, .main-menu .navbar > li > a:before, .team-slider-active .owl-nav button[type="button"] i, .testimonial-item::before, .single-sidebar .tags a:hover, .pg-title-area:before, .pagination li.active, .pagination li.pn{
+	background-color: #ef4428;
+}
+.single-project .img-holder .overlay-box, .features-area .feature-box .overlay-box, .service-box .img-holder .overlay-box, .blog-item .img-holder:before{
+/*    background: rgba(105, 173, 7, 0.9);*/
+     background: rgb(51,51,51);
+background: linear-gradient(342deg, rgba(51,51,51,1) 10%, rgb(242, 59, 44) 100%, rgba(0,212,255,1) 100%);
+    
+}
+.client-img img{
+     border: 2px solid #ef4428;
+}
+.team-profile .img-holder:hover ul{
+    border-left: 5px solid #ef4428;
+}
+.team-profile .img-holder ul li, .blog-item, .single-sidebar .profile .img-holder img{
+border: 1px solid #ef4428;
+}
