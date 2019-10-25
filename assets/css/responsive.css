@@ -17,11 +17,21 @@
     .hm-mid .address-info li {
         margin-right: 20px;
     }
+ 
+}
+@media(max-width: 1199px){
+    .blog-item .img-holder {
+        width: 100%;
+    }
+    .blog-item .text-holder {
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 992px){
    .main-menu .navbar-header .navbar-toggler{
         display: none !important;
     }
+
 }
 
 
@@ -61,12 +71,46 @@
 	top: 0;
 	left: 0;
 }
+.main-menu .navbar > li {
+	padding: 20px 15px;
+}
     /* ---- features-area -----  */
     
     .features-area .feature-box {
 	margin-bottom: 30px;
 }
 
+/* ---- testimonial-area -----  */
+.testimonial-item {
+	padding: 9px 23px;
+}
+.client-img {
+	width: 60px;
+	height: 60px;
+}
+.client-info {
+	margin-top: 12px;
+}
+
+.r-slider-active .single-item {
+	display: block;
+}
+.r-slider-active .single-item .img-holder img {
+	width: 100%;
+	height: 150px;
+}
+.r-slider-active .text-holder {
+	margin-left: 0px;
+}
+
+.project-list .single-project {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.address-info{
+    padding-left: 35px;
+}
 }
 
 
@@ -75,9 +119,76 @@
 
 @media only screen and (max-width: 767px) {}
 
-@media(max-width: 767px) {}
+@media(max-width: 767px) {
 
+    .menu-left.float-left {
+        float: none !important;
+        padding-bottom: 15px;
+        position: relative;
+    }
+    .menu-right.float-right {
+        position: absolute;
+        top: 0;
+        right: 31px;
+        width: 100%;
+    }
+    .main-menu .navbar {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .navbar-header{
+        z-index: 999;
+    }
+    .main-menu .navbar > li {
+        border: 1px dashed #69ad07;
+        border-bottom: 1px dashed #69ad07;
+    }
+    .main-menu .navbar > li > ul {
+        border: 2px dashed #69ad07;
+        background: #69ad07;
+    }
+    .main-menu .navbar > li > ul > li {
+      border-bottom: 0px;
+    }
+    .ht-right .ht-menu {
+        max-width: 100%;
+        float: none;
+    }
+    .ht-right .ht-menu ul {
+        display: flex;
+        justify-content: center;
+    }
+    .language-switcher {
 
+        display: none;
+    }
+    .filters ul li {
+        margin: 7px;
+    }
+    .team-profile {
+     
+        margin-bottom: 10px;
+    }
+    .address-info {
+        padding-left: 0px;
+        display: flex;
+    }
+
+}
+
+@media(max-width: 575px) {
+    .team-profile {
+        width: 300px;
+        margin: 10px auto;
+    }
+    .single-brand {
+        width: 90px;
+    }
+    .project-list .single-project {
+        width: 100%; 
+    }
+}
 @media(max-width: 479px) {
     .ht-right .ht-menu {
         max-width: 100%;
@@ -85,4 +196,5 @@
         width: 255px;
         margin: 0 auto;
     }
+
 }

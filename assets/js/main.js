@@ -88,7 +88,7 @@ $(document).ready(function(){
 
           },
           600:{
-              items:1
+              items:2
           },
           1000:{
               items:3
@@ -153,11 +153,11 @@ $(document).ready(function(){
       autoplayTimeout:2000,
       responsive:{
           0:{
-              items:1
+              items:3
 
           },
           600:{
-              items:1
+              items:4
           },
           1000:{
               items:5

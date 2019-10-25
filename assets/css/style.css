@@ -277,6 +277,7 @@ padding: 4px 10px;
 .header-mid-area{
     padding: 30px 0;
 }
+
 .logo a {
 	color: #333;
 }
@@ -357,11 +358,21 @@ margin: 1px 0 0;
 .menu-left{
     
 }
+.menu-right .inner-search-box{
+    padding: .5rem 1rem;
+}
 .main-menu{
     
 }
+.main-menu .navbar-toggler {
+color: #69ad07;
+border: 1px solid #69ad07;
+border-radius: 0;
+padding: 6px 9px;
+margin-top: 10px;
+}
 .navbar-collapse.collapse{
-    display: block;
+    /* display: block; */
 }
 .main-menu .navbar{
     float: left;
